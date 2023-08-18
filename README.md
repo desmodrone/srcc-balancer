@@ -1,4 +1,4 @@
-# Comet Contracts
+# SRCC Contracts
 
 Contracts written using Soroban
 
