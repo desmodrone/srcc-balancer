@@ -1,0 +1,16 @@
+pub const BONE: i128 = 1e7 as i128;
+pub const MIN_CPOW_BASE: i128 = 1; // not used
+pub const MAX_CPOW_BASE: i128 = (2 * BONE) - 1; // not used
+pub const CPOW_PRECISION: i128 = BONE / 1e7 as i128;
+pub const EXIT_FEE: i128 = 0;
+pub const MAX_TOTAL_WEIGHT: i128 = BONE * 50; // should be 50
+pub const INIT_POOL_SUPPLY: i128 = BONE * 100; //
+pub const MIN_FEE: i128 = 10; // swap fee
+pub const MAX_FEE: i128 = 1e6 as i128; // most amount of fees you can charge
+pub const MAX_IN_RATIO: i128 = BONE / 2; //?
+pub const MAX_OUT_RATIO: i128 = (BONE / 3) + 1; // ?
+pub const MIN_BOUND_TOKENS: u32 = 2; // min amount of tokens
+pub const MAX_BOUND_TOKENS: u32 = 8; // maximum of tokens can be 8
+pub const MIN_WEIGHT: i128 = BONE; //
+pub const MAX_WEIGHT: i128 = BONE * 50; // why is this repeated
+pub const MIN_BALANCE: i128 = (1e7 / 1e5) as i128; // what is the diff between balance and amount // Deposit?
